@@ -1,0 +1,16 @@
+Ejercicio #1
+
+Algoritmo paresImpares
+	Escribir 'Ingrese cantidad'
+	Leer p
+	Para i<-1 Hasta p Hacer
+		r <- Aleatorio(1,100)
+		Si r MOD 2=0 Entonces
+			CP <- CP+1
+		SiNo
+			CI <- CI+1
+		FinSi
+	FinPara
+	Escribir 'Los numeros pares son: ',CP
+	Escribir 'Los numeros impares son: ',CI
+FinAlgoritmo
